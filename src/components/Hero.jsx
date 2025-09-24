@@ -43,9 +43,9 @@ export const Hero = () => {
             Digital Solutions Cultivator & Civic Tech Innovator
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            Technical cultivator and problem‑solver, designing systems that
-            merge modern web, blockchain, and AI. Rooted in indigenous values,
-            driven by curiosity, building tech that matters.
+            Technical cultivator and civic tech innovator, designing systems
+            that merge modern web, blockchain, and AI. Rooted in indigenous
+            values, driven by curiosity, building tech that matters.
           </motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
