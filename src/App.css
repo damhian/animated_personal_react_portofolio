@@ -360,6 +360,14 @@ body {
   cursor: pointer;
 }
 
+.project-access-note {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--ligth-text);
+}
+
 .project-image::after {
   content: "";
   position: absolute;

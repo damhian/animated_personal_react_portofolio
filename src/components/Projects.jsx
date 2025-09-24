@@ -100,6 +100,12 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}>
+          <a
+            href="https://e-licensing.dephub.go.id/landing/"
+            target="_blank"
+            className="project-link"
+            aria-label="Visit Collabrite Task Manager"
+          />
           <motion.div
             className="project-image"
             style={{ backgroundImage: "url('/projects/e-licensing.png')" }}
@@ -114,6 +120,10 @@ export const Projects = () => {
             intuitive user experience. Features include role‑based access,
             document verification, and real‑time application tracking to
             streamline maritime licensing processes.
+            <span className="project-access-note">
+              🔒 <strong>Access note:</strong> Public landing page available —
+              full system restricted per government security requirements.
+            </span>
           </p>
           <div className="project-tech">
             <span>Next.js</span>
