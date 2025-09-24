@@ -25,7 +25,11 @@ export const Navbar = () => {
         className="logo"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}>
-        Portofolio
+        {/* Portofolio */}
+        <motion.div
+          className="logo-image"
+          style={{ backgroundImage: "url('/logo/dm_logo.png')" }}
+        />
       </motion.div>
 
       <motion.ul
