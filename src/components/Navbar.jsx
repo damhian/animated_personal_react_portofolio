@@ -49,7 +49,7 @@ export const Navbar = () => {
           variants={fadeInUp}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}>
-          <a href="contact">Contact</a>
+          <a href="#contact">Contact</a>
         </motion.li>
       </motion.ul>
     </motion.nav>
