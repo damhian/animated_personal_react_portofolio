@@ -530,7 +530,7 @@ body {
 
 /* Hero Media Queries */
 
-@media(max-width: 1024px) {
+@media(max-width: 1366px) {
   .hero-container {
     flex-direction: column;
     text-align: center;
