@@ -41,6 +41,12 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}>
+          <a
+            href="https://chronus-social-media-supabase-websi.vercel.app/"
+            target="_blank"
+            className="project-link"
+            aria-label="Visit Chronus Social Platform"
+          />
           <motion.div
             className="project-image"
             style={{ backgroundImage: "url('/projects/chronus.png')" }}
@@ -64,6 +70,12 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}>
+          <a
+            href="https://collabrite.vercel.app/"
+            target="_blank"
+            className="project-link"
+            aria-label="Visit Collabrite Task Manager"
+          />
           <motion.div
             className="project-image"
             style={{ backgroundImage: "url('/projects/collabrite.png')" }}
