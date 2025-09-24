@@ -40,12 +40,12 @@ export const Hero = () => {
             David Mayshiogie
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
-            Digital Solutions Cultivator & Civic Tech Innovator
+            Digital Solutions Cultivator & Civic-Tech Innovator
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            Technical cultivator and civic tech innovator, designing systems
-            that merge modern web, blockchain, and AI. Rooted in indigenous
-            values, driven by curiosity, building tech that matters.
+            Tech cultivator and civic-tech innovator, designing systems that
+            merge modern web, blockchain, and AI. Rooted in indigenous values,
+            driven by curiosity, building tech that matters.
           </motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
