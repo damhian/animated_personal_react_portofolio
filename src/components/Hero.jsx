@@ -40,7 +40,7 @@ export const Hero = () => {
             David Mayshiogie
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
-            Digital Solutions Cultivator & Tech Explorer
+            Digital Solutions Cultivator & Civic Tech Innovator
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
             Technical cultivator and problem‑solver, designing systems that
