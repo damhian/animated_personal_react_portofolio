@@ -45,7 +45,8 @@ export const Hero = () => {
           <motion.p className="hero-description" variants={fadeInUp}>
             Tech cultivator and civic-tech innovator, designing systems that
             merge modern web, blockchain, and AI. Rooted in indigenous values,
-            driven by curiosity, building tech that matters.
+            driven by curiosity, building tech that matters. Exploring
+            indigenous perspectives in open-decentralized technologies.
           </motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
