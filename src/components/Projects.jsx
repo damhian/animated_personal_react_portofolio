@@ -30,6 +30,9 @@ export const Projects = () => {
         whileInView="animate"
         viewport={{ once: true }}>
         My Projects
+        <p className="projects-subtitle">
+          Project Playgrounds <br /> You Can Test Some of My Project Here
+        </p>
       </motion.h2>
       <motion.div
         className="project-grid"
