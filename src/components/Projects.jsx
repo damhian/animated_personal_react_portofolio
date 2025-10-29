@@ -104,6 +104,42 @@ export const Projects = () => {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}>
           <a
+            href="https://lamira.vercel.app/"
+            target="_blank"
+            className="project-link"
+            aria-label="Visit Lamira AI Newsletter"
+          />
+          <motion.div
+            className="project-image"
+            style={{
+              backgroundImage: "url('/projects/lamira_ai_newsletter.png')",
+            }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3>Lamira AI Newsletter</h3>
+          <p>
+            In today’s world, information overload is real. We’re constantly
+            bombarded with articles, updates, and notifications, but finding
+            content that truly matters to us can feel like searching for a
+            needle in a haystack. That’s why I built Lamira AI Newsletter — a
+            smart, elegant, and personalized newsletter generator that adapts to
+            people’s choices. Lamira isn’t just another demo project. It’s my
+            exploration of how AI as SaaS can be both practical and delightful,
+            blending modern web technologies with cutting-edge AI models to
+            create something that feels like a real product.
+          </p>
+          <div className="project-tech">
+            <span>Next.js</span>
+            <span>TailwindCSS</span>
+            <span>Supabase</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}>
+          <a
             href="https://e-licensing.dephub.go.id/landing/"
             target="_blank"
             className="project-link"
@@ -132,6 +168,43 @@ export const Projects = () => {
             <span>Next.js</span>
             <span>PostgreSQL</span>
             <span>CodeIgniter 3 (legacy)</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}>
+          <a
+            href="https://svelte-personal-portofolio.vercel.app/"
+            target="_blank"
+            className="project-link"
+            aria-label="Visit My Another Funny Animated Personal Site 🤫"
+          />
+          <motion.div
+            className="project-image"
+            style={{
+              backgroundImage: "url('/projects/svelte_animated_porto.png')",
+            }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3>
+            Svelte Funny Animated Personal Site 🤫(Its still a work in progress)
+          </h3>
+          <p>
+            Svelte Funny Animated Personal Site 🤫 (Work in Progress) This isn’t
+            just a portfolio — it’s a playground. My personal site is alive,
+            shifting, and full of motion, built to grow and change as I do.
+            Every animation, transition, and quirky detail is part of an ongoing
+            experiment in blending creativity with code. It’s not finished (and
+            it’s not supposed to be) — the fun is in watching it evolve,
+            surprise, and tell my story in new ways over time.
+          </p>
+          <div className="project-tech">
+            <span>SvelteKit</span>
+            <span>TailwindCSS</span>
+            <span>Threlte</span>
+            <span>Prismic</span>
           </div>
         </motion.div>
       </motion.div>
